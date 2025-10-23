@@ -15,3 +15,6 @@ use App\Http\Controllers\LandingController;
 */
 
 Route::get('/', [LandingController::class, 'index']);
+Route::get('/about', [LandingController::class, 'about']);
+Route::get('/services', [LandingController::class, 'services']);
+Route::get('/contact', [LandingController::class, 'contact']);
